@@ -1,0 +1,66 @@
+[ENTIDADES]
+categoria: Procesadores
+categoria: Memoria RAM
+categoria: Tarjetas graficas
+categoria: Fuentes de poder
+categoria: Almacenamiento
+categoria: Placas madre
+producto: AMD Ryzen 7 5800X3D
+producto: AMD Ryzen 7 7800X3D
+producto: RAM DDR4 32 GB
+producto: RAM DDR5 64 GB
+producto: NVIDIA GeForce RTX 5070
+producto: NVIDIA GeForce RTX 5080
+producto: AMD Radeon RX 9070
+producto: Fuente de poder 850 W
+producto: Fuente de poder 1000 W
+producto: SSD NVMe 2 TB
+producto: SSD NVMe 4 TB
+producto: Placa madre X570 AM4
+producto: Placa madre X670E AM5
+
+[RELACIONES]
+pertenece: AMD Ryzen 7 5800X3D, Procesadores
+pertenece: AMD Ryzen 7 7800X3D, Procesadores
+pertenece: RAM DDR4 32 GB, Memoria RAM
+pertenece: RAM DDR5 64 GB, Memoria RAM
+pertenece: NVIDIA GeForce RTX 5070, Tarjetas graficas
+pertenece: NVIDIA GeForce RTX 5080, Tarjetas graficas
+pertenece: AMD Radeon RX 9070, Tarjetas graficas
+pertenece: Fuente de poder 850 W, Fuentes de poder
+pertenece: Fuente de poder 1000 W, Fuentes de poder
+pertenece: SSD NVMe 2 TB, Almacenamiento
+pertenece: SSD NVMe 4 TB, Almacenamiento
+pertenece: Placa madre X570 AM4, Placas madre
+pertenece: Placa madre X670E AM5, Placas madre
+existencia: AMD Ryzen 7 5800X3D, 3
+existencia: AMD Ryzen 7 7800X3D, 8
+existencia: RAM DDR4 32 GB, 15
+existencia: RAM DDR5 64 GB, 2
+existencia: NVIDIA GeForce RTX 5070, 4
+existencia: NVIDIA GeForce RTX 5080, 0
+existencia: AMD Radeon RX 9070, 4
+existencia: Fuente de poder 850 W, 6
+existencia: Fuente de poder 1000 W, 1
+existencia: SSD NVMe 2 TB, 10
+existencia: SSD NVMe 4 TB, 0
+existencia: Placa madre X570 AM4, 2
+existencia: Placa madre X670E AM5, 7
+minimo: AMD Ryzen 7 5800X3D, 5
+minimo: AMD Ryzen 7 7800X3D, 4
+minimo: RAM DDR4 32 GB, 8
+minimo: RAM DDR5 64 GB, 5
+minimo: NVIDIA GeForce RTX 5070, 3
+minimo: NVIDIA GeForce RTX 5080, 3
+minimo: AMD Radeon RX 9070, 3
+minimo: Fuente de poder 850 W, 4
+minimo: Fuente de poder 1000 W, 3
+minimo: SSD NVMe 2 TB, 5
+minimo: SSD NVMe 4 TB, 4
+minimo: Placa madre X570 AM4, 3
+minimo: Placa madre X670E AM5, 3
+
+[REGLAS_SOLICITADAS]
+agotado
+stock_bajo
+necesita_reposicion
